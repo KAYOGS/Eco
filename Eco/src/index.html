@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/index.css">
-    <link rel="shortcut icon" href="../img/icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/Eco/src/styles/index.css">
+    <link rel="shortcut icon" href="/Eco/src/img/icons/favicon.ico" type="image/x-icon">
     <title>Login</title>
 </head>
 <body>
     <div class="container">
         <div class="cont_image">
-            <img class="img_logo" src="../img/image.png" alt="Imagem da logo do projeto">
+            <img class="img_logo" src="/Eco/src/img/image.png" alt="Imagem da logo do projeto">
         </div>
         <div class="form_login_cont">
             <p class="title_form">Acessar</p>
             <br>
-            <form action="../controllers/validateUser.php" method="post">
+            <form action="/Eco/src/controllers/validateUser.php" method="post">
                 <input class="input_form" type="text" name="identifier" id="identifier" placeholder="CPF ou CNPJ" required>
                 <br>
                 <input class="input_form" type="password" name="senha" id="senha" placeholder="SENHA" required>
                 <br>
                 <div class="link_redirection">
-                    <a class="link1" href="redefinir_senha.html">Redefinir senha</a>
-                    <a class="link2" href="cadastre_se.html">Cadastre-se</a>
+                    <a class="link1" href="/Eco/src/views/redefinir_senha.html">Redefinir senha</a>
+                    <a class="link2" href="/Eco/src/views/cadastre_se.html">Cadastre-se</a>
                 </div>
                 <input class="submit_input_form" type="submit" value="Entrar">
             </form>
